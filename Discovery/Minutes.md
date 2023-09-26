@@ -2,28 +2,38 @@
 
 ## Meeting Start Time
 
-Whatever the start of the meeting was in **YYYY/MM/DD/hh:MM** format. Just enter data in this format. Nothing else.
+**2023/09/26/3:15**
 
 ## Meeting End Time
 
-Whatever the start of the meeting was in **YYYY/MM/DD/hh:MM** format. Just enter data in this format. Nothing else.
+**2023/09/26/3:45**
 
 ## Location/Medium
 
-Wherever the meeting was.
+Google Teams
 
 ## Present
 
-Whoever were present in the meeting. Write only the first names of team members and clients. Each name should be separated by commas.
+Evyn, Davis, Connor, Conner, Drew
 
 ## Minute Recorder
 
-Whoever was recording the minutes in the meeting. Write only the first name(s) of minute recorders. Each name should be separated by commas.
+Evyn
 
 ## Topics Discussed
 
-Whatever discussed in this week.
+-Simplified sign up process, scale for large teams
+-First phase of project is to have bulk sign up
+-Involved in testing environments
+-Real life application
+-Design work, back-end and front-end work
+-Sign up process: right now its a trial period, basic information. Look at sign in progess, make it more wideley useable for multiple people signing up.
+-Succeed in class, if requirements made take you away from that let them know.
+-Be transparent
+-Premium Serivce: additional functionality on top of their core product. Accopunt eggregation. The end user can consolidate their account information that is kept to make sure everything is accounted for.
+-NDA's
 
 ## Things Clarified
 
-Whatever the plan is for next week.
+-Set up meeting for Design
+-Stay in touch
