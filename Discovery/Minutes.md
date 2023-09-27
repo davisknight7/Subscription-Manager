@@ -10,7 +10,7 @@
 
 ## Location/Medium
 
-Google Teams
+Microsoft Teams
 
 ## Present
 
@@ -22,18 +22,18 @@ Evyn
 
 ## Topics Discussed
 
--Simplified sign up process, scale for large teams
--First phase of project is to have bulk sign up
--Involved in testing environments
--Real life application
--Design work, back-end and front-end work
--Sign up process: right now its a trial period, basic information. Look at sign in progess, make it more wideley useable for multiple people signing up.
--Succeed in class, if requirements made take you away from that let them know.
--Be transparent
--Premium Serivce: additional functionality on top of their core product. Accopunt eggregation. The end user can consolidate their account information that is kept to make sure everything is accounted for.
--NDA's
+-Simplified sign up process, scale for large teams<br>
+-First phase of project is to have bulk sign up<br>
+-Involved in testing environments<br>
+-Real life application<br>
+-Design work, back-end and front-end work<br>
+-Sign up process: right now its a trial period, basic information. Look at sign in progess, make it more wideley useable for multiple people signing up.<br>
+-Succeed in class, if requirements made take you away from that let them know.<br>
+-Be transparent<br>
+-Premium Serivce: additional functionality on top of their core product. Accopunt eggregation. The end user can consolidate their account information that is kept to make sure everything is accounted for.<br>
+-NDA's<br>
 
 ## Things Clarified
-
--Set up meeting for Design
--Stay in touch
+-Need to setup recurring meeting schedule<br>
+-Set up meeting for Design<br>
+-Stay in touch<br>
