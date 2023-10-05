@@ -4,7 +4,7 @@
     - Primary users of the system. They can view and manage their own Moneytree subscriptions, update personal details, and interact with the platform's core features.
 
 2. **Account Manager**
-    - Responsible for managing the subscriptions of multiple advisors, especially during bulk sign-ups. They have access to more administrative features and can handle larger-scale operations.
+    - Moneytree employee who enters the details of advisors during bulk sign-up.
 
 3. **System**
     - Represents automated processes and integrations, such as updating subscription statuses in Maxio or synchronizing data with HubSpot.

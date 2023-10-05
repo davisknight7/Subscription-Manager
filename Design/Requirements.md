@@ -5,10 +5,9 @@
 - **FR1** (Unified Subscription View, **MEDIUM**): Provide an interface for users to view their current subscription/license details.
 - **FR2** (Subscription Management, **MEDIUM**): Enable users to update existing subscriptions/license details.
 - **FR3** (Subscription Management, **medium**): Allow users to add or remove subscriptions/licenses from their account.
-- **FR4** (Subscription Management, **MEDIUM**): Allow users to assign subscriptions/licenses to other users via Maxio Custom Fields.
-- **FR5** (Subscription Management, **MEDIUM**): Update subscription status in Maxio to reflect changes.
-- **FR6** (Subscription Management, **MEDIUM**): Users should be restricted from modifying their core product.
-- **FR7** (Premium Services Integration, **medium**): Users should have the ability to add premium services such as Account Aggregation or Merit.
+- **FR4** (Subscription Management, **MEDIUM**): Update subscription status in Maxio to reflect changes.
+- **FR5** (Subscription Management, **MEDIUM**): Users should be restricted from modifying their core product.
+- **FR6** (Premium Services Integration, **medium**): Users should have the ability to add premium services such as Account Aggregation or Merit.
 
 ### Account Management
 
@@ -16,9 +15,8 @@
 
 ### Bulk Sign-Up
 
-- **FR10** (Bulk Sign Up, **HIGH**): Provide an interface where account managers could dynamically add new rows or sections to input the details of 5, 10, 100, or more advisors during sign-up.
-- **FR11** (Bulk Sign Up, **HIGH**): Allow account managers to assign subscriptions/licenses to other users via Maxio Custom Fields.
-- **FR12** (Bulk Sign Up, **MEDIUM**): Update subscription status in Maxio to reflect changes from bulk sign-up.
+- **FR9** (Bulk Sign Up, **HIGH**): Provide an interface where account managers could dynamically add new rows or sections to input the details of 5, 10, 100, or more advisors during sign-up.
+- **FR10** (Bulk Sign Up, **MEDIUM**): Update subscription status in Maxio to reflect changes from bulk sign-up.
 
 ## Non-Functional Requirements
 
