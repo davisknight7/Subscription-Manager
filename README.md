@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-Put a very high-level summary of the project.
+This project contains two parts. The first part is implementing a way for bulk signing up users for moneytree. Currently, only one advisor can be signed up at a time. Ideally, it should be easy to sign up as many advisors as desired at a time, which will help Moneytree as it scales. The second part is creating a subscription management interface that allows the user to easily manage their moneytree subscription.
 
 ## **Team Members**
 
@@ -16,12 +16,13 @@ Put a very high-level summary of the project.
 
 ### _Company:_
 
-WHATEVER COMPANY or CORRESPONDENCE
+Moneytree
 
 ### _People:_
 
-- Jane Fonda
-- Jane Lynch
+- Nathan Householder (nathan.housholder@trustasc.com)
+- Patrick Spencer (patrick.spencer@trustasc.com)
+- Matthew Garret (matthew.garrett@trustasc.com)
 
 ## **Links**
 
@@ -29,10 +30,7 @@ WHATEVER COMPANY or CORRESPONDENCE
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
-- ... any other documents/links you see need
 
 ## **Code Repositories**
 
-- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
-- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
-- Others if more.
+- ...
