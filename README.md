@@ -30,6 +30,7 @@ Moneytree
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
+- [Jira (Project Management Tool)](https://accutechdev.atlassian.net/jira/software/projects/MTSM/boards/108)
 
 ## **Code Repositories**
 
