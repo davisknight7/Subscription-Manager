@@ -15,12 +15,13 @@
 
 ### Bulk Sign-Up
 
-- **FR9** (Bulk Sign Up, **HIGH**): Provide an interface where account managers could dynamically add new rows or sections to input the details of 5, 10, 100, or more advisors during sign-up.
-- **FR10** (Bulk Sign Up, **MEDIUM**): Update subscription status in Maxio to reflect changes from bulk sign-up.
+- **FR9** (Bulk Sign Up, **HIGH**): Provide an interface where account managers could dynamically add new rows or sections to input the details of multiple advisors during sign-up.
+- **FR10** (Bulk Sign Up, **MEDIUM**): Update third partys to reflect changes from bulk sign-up.
 - **FR11** (Bulk Sign Up, **MEDIUM**): Provide an interface where account managers can add payment information. If they need more than one card have text that says call moneytree support.
 - **FR12** (Bulk Sign Up, **MEDIUM**): Provide an interface where account managers can select a product for the advisors in bulk sign up.
-- **FR13** (Bulk Sign Up, **MEDIUM**): Update subscription status in Hubspot to reflect changes from bulk sign-up.
-- **FR14** (Bulk Sign Up, **MEDIUM**): Update our database to reflect bulk sign-up form submission.
+- **FR13** (Bulk Sign Up, **MEDIUM**): Format form submission on the backend, to prepare for request.
+- **FR14** (Bulk Sign Up, **MEDIUM**): Provide validation for the bulk sign up form on the front end, including all modals.
+- **FR15** (Bulk Sign Up, **MEDIUM**): Provide error handling for the form.
 
 ## Non-Functional Requirements
 
