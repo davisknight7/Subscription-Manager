@@ -22,6 +22,7 @@
 - **FR13** (Bulk Sign Up, **MEDIUM**): Format form submission on the backend, to prepare for request.
 - **FR14** (Bulk Sign Up, **MEDIUM**): Provide validation for the bulk sign up form on the front end, including all modals.
 - **FR15** (Bulk Sign Up, **MEDIUM**): Provide error handling for the form.
+- **FR16** (Bulk Sign Up, **HIGH**): Provide suppport for additional products on advisor signup
 
 ## Non-Functional Requirements
 
