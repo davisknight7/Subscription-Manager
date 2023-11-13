@@ -36,7 +36,7 @@
   ![Console output](./images/console-output.png)
 - Navigate to the outputted URL in your browser
 - You should see the following page
-  ![Site screenshot](./images/site-screenshot.png)
+  ![Site screenshot](./images/default-bulk-signup-frontend.png)
 
 ### Linting and Formatting
 - Linting and Formatting is done with ESLint and Prettier using the Accutech specific configuration
@@ -60,7 +60,10 @@
 - In a terminal, navigate to the top level of the project directory. Once there, run 'cd api'
 - Run `dotnet run` in the api directory
 - The output should look something like this:
-  ![Console output](./images/backend-console-output.png)
+  ![Console output](./images/run-backend-successfully-output.png)
 
 - Once the backend is running, you will be able to submit a bulk signup subscription request to Maxio
 - A successfull susbcription creation will look something like this in the terminal:
+  ![Subscription Creation Console Output](./images/subscription-creation-output.png)
+- This alert will also display on the front end:
+- ![Subscription Creation Alert](./images/advisors-added-alert.png)
