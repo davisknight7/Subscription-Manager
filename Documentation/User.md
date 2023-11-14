@@ -12,8 +12,7 @@ Once at advisor page, you can create advisors like so:
 # Step 3:
 - Input the advisor information
 - Choose your core product
-If chose Moneytree Plan or Moneytree Advise:
-- Choose an additonal product of Account Aggregation if needed
+- If chose Moneytree Plan or Moneytree Advise: choose an additonal product of Account Aggregation if needed
 ![Site screenshot](./images/Step3-core.png)
 - Once Advisor information is added, you may click add advisor to add an advisor with this information
 ![Site screenshot](./images/Step3-add.png)
