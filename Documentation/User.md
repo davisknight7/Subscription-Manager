@@ -8,7 +8,7 @@ Once at advisor page, you can create advisors like so:
 - Click the add advisor button circled in red
 ![Step 2](./images/Step2-2-edit.png)
 - Once you have clicked the add advisor button, a new page will open
-![Step2-2](./images/Step_2.png)
+![Step2-2](./images/Step 2.png)
 # Step 3:
 - Input the advisor information
 - Choose your core product
