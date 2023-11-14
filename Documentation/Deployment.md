@@ -21,7 +21,8 @@
 - Errors could also be found in logs, here is how to view them:
   https://docs.aws.amazon.com/systems-manager/latest/userguide/fleet-logs.html
 ## Vulnerable pieces
-- AWS servers face vulnerabilities around identity and access management, data encryption, liability, etc. More here: https://www.getastra.com/blog/security-audit/aws-cloud-security/
+- AWS servers face vulnerabilities around identity and access management, data encryption, liability, etc. More here:
+  https://www.getastra.com/blog/security-audit/aws-cloud-security/
 - Currently the most vulnerable piece of the system is our api endpoint and call to Maxio
 - Our data object in the backend that takes form info is setup pretty specfically right now, so if changes were made to what is passed in, lots would break
 - We do not currently have any validation on the backend to ensure the information passed to Maxio is exactly how Maxio wants it, so this could potentially cause issues
