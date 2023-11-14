@@ -6,7 +6,7 @@
 #Step 2:
 Once at advisor page, you can create advisors like so:
 - Click the add advisor button circled in red
-![Site screenshot](.images/Step2-2-edit.png)
+![Step 2](.images/Step2-2-edit.png)
 - Once you have clicked the add advisor button, a new page will open
 ![Site screenshot](.images/Step2.png)
 #Step 3:
