@@ -67,3 +67,13 @@
   ![Subscription Creation Console Output](./images/subscription-creation-output.png)
 - This alert will also display on the front end:
 - ![Subscription Creation Alert](./images/advisors-added-alert.png)
+
+## Replicating via Docker
+- Run `docker compose up` in the root level of the project directory
+- If this is the first time running the project, it will take a while to download the images and build the containers
+- If you have built the containers before and have new npm packages run `docker compose up --build` to rebuild the containers
+- You should see the following output in the terminal:
+  ![Docker Output](./images/docker-output.png)
+- The api will be running on port `5002`
+- The bulk sign up frontend will be running on port `5173`
+- The subscription manager frontend will be running on port `5174`
