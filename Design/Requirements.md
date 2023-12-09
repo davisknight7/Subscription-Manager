@@ -3,11 +3,15 @@
 ### Subscription Management
 
 - **FR1** (Unified Subscription View, **MEDIUM**): Provide an interface for users to view their current subscription/license details.
-- **FR2** (Subscription Management, **MEDIUM**): Enable users to update existing subscriptions/license details.
-- **FR3** (Subscription Management, **medium**): Allow users to add or remove subscriptions/licenses from their account.
+- **FR2** (Subscription Management, **HIGH**): Enable users to update their payment information for subscriptions
+- **FR3** (Subscription Management, **medium**): Allow users to edit their subscription
 - **FR4** (Subscription Management, **MEDIUM**): Update subscription status in Maxio to reflect changes.
 - **FR5** (Subscription Management, **MEDIUM**): Users should be restricted from modifying their core product.
-- **FR6** (Subscription Management, **medium**): Users should have the ability to add premium services such as Account Aggregation or Merit.
+- **FR6** (Subscription Management, **MEDIUM**): Users should have the ability to add premium services such as Account Aggregation or Merit.
+- **FR7** (Subscription Management, **MEDIUM**): Users can view all of their products through multi-product support
+- **FR8** (Subscription Management, **MEDIUM**): Users can view their invoice history
+
+
 
 ### Account Management
 
