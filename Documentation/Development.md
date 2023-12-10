@@ -1,10 +1,13 @@
 # Development
+
 ## Tech Aspects
+
 - Frontend: Vue 3 with TypeScript
 - Backend: .NET 7.0 with C#
 - Bitbucket for version control
 
 ## Vue Folder Structure
+
 - src has the main code
 - src/views contains the pages for the site, including the typescript, scss, and html in each .vue file.
 - src/components ontains vue code for individual components for the pages, such as the InputGroup, AdvisorsSection, ect.
@@ -14,31 +17,45 @@
 - src/stores contains the pinia stores.
 - src/validators contains the zod schema validators.
 - package.json contains the dependencies for the project and scripts that can be run for the project.
+
 ## FRONTEND
 
 ### Installing Pre-requisites
+
 - Install NodeJS (v20.9.0 recommended)
-    - [Node Download](https://nodejs.org/en)
+  - [Node Download](https://nodejs.org/en)
 
 ### Installing Dependencies
+
 - Run `npm install` in the frontend directory
 
 ### Reccomended IDE Setup
+
 #### Plugins
+
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
+### Running the Bulk Signup Frontend Locally
 
-### Running the Frontend Locally
 - Clone the code from: https://bitbucket.org/accutechcapstone/bsu.subscriptionmanager/src/master/
 - master has the latest release code, dev has the latest development code. You probably will want to check out dev.
-- In a terminal, navigate to the project directory. At the top level, run 'cd frontend'
-- Run `npm run dev` in the frontend directory
+- In a terminal, navigate to the project directory. At the top level, run 'cd bulk-signup'
+- Run `npm run dev` in the bulk-signup directory
   ![Console output](./images/console-output.png)
-- Navigate to the outputted URL in your browser
+- Navigate to the outputted Local URL in your browser
 - You should see the following page
-  ![Site screenshot](./images/default-bulk-signup-frontend.png)
+  ![BulkSignup screenshot](./images/default-bulk-signup-frontend.png)
+
+### Running the Subscription Manager Dashboard Frontend Locally
+
+- Assuming you have already cloned the code and checked out dev, navigate to the project directory in a terminal. At the top level, run 'cd subscription-manager-dashboard'
+- Run `npm run dev` in the subscription-manager-dashboard directory
+- Navigate to the outputted Local URL in your browser
+- You should see a page that looks something like this:
+  ![Dashboard screenshot](./images/subscription-manager-dashboard-frontend.png)
 
 ### Linting and Formatting
+
 - Linting and Formatting is done with ESLint and Prettier using the Accutech specific configuration
 - Run `npm run lint` in the frontend directory to lint the code
 - Run `npm run lint:fix` in the frontend directory to fix linting errors
@@ -49,14 +66,20 @@
 ## BACKEND
 
 ### Installing Pre-requisites
+
 - Install .NET 7.0
-    - [Download .NET](https://dotnet.microsoft.com/en-us/download)
+  - [Download .NET](https://dotnet.microsoft.com/en-us/download)
 
 ### Reccommended IDE Setup
+
 - [Visual Studio Code](https://code.visualstudio.com/)
+
 #### Plugins
+
 - [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+
 ### Running the Backend Locally
+
 - In a terminal, navigate to the top level of the project directory. Once there, run 'cd api'
 - Run `dotnet run` in the api directory
 - The output should look something like this:
@@ -69,6 +92,7 @@
 - ![Subscription Creation Alert](./images/advisors-added-alert.png)
 
 ## Replicating via Docker
+
 - Run `docker compose up` in the root level of the project directory
 - If this is the first time running the project, it will take a while to download the images and build the containers
 - If you have built the containers before and have new npm packages run `docker compose up --build` to rebuild the containers
