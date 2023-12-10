@@ -64,12 +64,12 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 1-1](./images/step1-main-dashboard.png)
 - Depending on what subscriptions the customer has, different subscriptions, or multiple, may show.
 - Notice the different panels in the side bar:
-  ![Dash Step 1-2](./images/step1-sidebar.png)
+- ![Dash Step 1-2](./images/step1-sidebar.png)
 
 ## Step 2:
 
 - Clicking on Billing will take you to the billing information page of the Subscription Manager:
-  ![Dash Step 2-1](./images/step2-billing-tab.png)
+- ![Dash Step 2-1](./images/step2-billing-tab.png)
 - The page looks like this:
   ![Dash Step 2-2](./images/step2-billing-page.png)
 - Nothing currently can be done here, besides typing in information. But it can't be submitted.
