@@ -101,3 +101,10 @@
 - The api will be running on port `5002`
 - The bulk sign up frontend will be running on port `5173`
 - The subscription manager frontend will be running on port `5174`
+
+## Running Front End Tests
+- First cd into the front end directory you would like to run tests for
+- This would be 'cd bulk-signup' for the Bulk Signup front end and 'cd subscription-manager-dashboard' for the Subscription Manager Dashboard front end
+- Next, simply run 'npm run test'
+- The output should be something like this:
+![Frontend Test Output](./images/frontend-test-output.png)
