@@ -62,7 +62,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - You will begin in the main dashboard for the Subscription Manager
 - It should look something like this:
   ![Dash Step 1-1](./images/step1-main-dashboard.png)
-- Depending on what subscriptions the customer has, different subscriptions, or multiple, may show.
+- Depending on what subscriptions the customer is signed in under, different information may show or the layout/colors may differ slightly
 - Notice the different panels in the side bar:
 - ![Dash Step 1-2](./images/step1-sidebar.png)
 
@@ -73,3 +73,14 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - The page looks like this:
   ![Dash Step 2-2](./images/step2-billing-page.png)
 - Nothing currently can be done here, besides typing in information. But it can't be submitted.
+
+## Step 3:
+
+- Clicking on Invoices will take you to the billing information page of the Subscription Manager:
+- ![Dash Step 3-1](./images/step3-invoice-tab.png)
+- The page looks like this:
+  ![Dash Step 3-2](./images/step3-invoice-page.png)
+- This shows the invoices for the logged in customer. It is not just for the product subscription that is logged in under. It is all of their invoices for everything they have had an invoice for.
+- There are buttons at the bottom of the page. Each page contains 10 invoices. If there are more than 10, say 11 for example, then there would be 2 pages. In this screenshot there is only one page, but they look like this
+  ![Dash Step 3-2](./images/step3-invoice-buttons.png)
+- The buttons are pretty self explanatory, they simply take you to the corresponding page of invoices. Prev and Next take you to the prior or following page of invoices respectively.
