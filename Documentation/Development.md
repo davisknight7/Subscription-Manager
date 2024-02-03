@@ -44,14 +44,33 @@
   ![Console output](./images/console-output.png)
 - Navigate to the outputted Local URL in your browser
 - You should see the following page
-  ![BulkSignup screenshot](./images/default-bulk-signup-frontend.png)
+  ![Packagejson screenshot](./images/package-json.png)
 
-### Running the Subscription Manager Dashboard Frontend Locally
+### Running the Subscription Manager Dashboards Frontend Locally
 
-- Assuming you have already cloned the code and checked out dev, navigate to the project directory in a terminal. At the top level, run 'cd subscription-manager-dashboard'
-- Run `npm run dev` in the subscription-manager-dashboard directory
-- Navigate to the outputted Local URL in your browser
-- You should see a page that looks something like this:
+- The Subscription Manager Dashboard is broken up into multiple directories. It is a monorepo. The top level is the directory "dashboards" which inside is "packages." In there are the various monorepo directories. It contains the following directories:
+  - advise-dashboard
+  - plan-dashboard
+  - merit-dashboard
+  - shared-api-utils
+  - shared-stores
+  - subscription-dashboard-component-library
+- Assuming you have already cloned the code and checked out dev, navigate to the project directory in a terminal. At the top level, run `cd dashboards`
+- Once there you will need to make sure you have run `npm i --workspaces`
+- After installation is complete, you have a couple of options. You can either build/run each directory individually, depending on where you make changes, or run all at once.
+- When making changes it is preferable to just build the directory you made changes in. To do this, you would navigate to the directory's `package.json`.
+- In the `package.json` you will see "scripts". Depending on which directory you are in, there maybe just a build script, or both a dev and build script. Something like this:
+  ![Packagejson screenshot](./images/package-json.png)
+- Hovering over one of them will give you the option to run the script. Running build will build your changes. Running the dev script will run that dashboard, as only the dashboards have the option to run dev.
+- Thes are the same as running the commands `npm run build` or `npm run dev`
+  &nbsp;
+- Now, if you wanted to do all of this at once you would do as follows.
+- Run `npm run build --workspaces` in `dashboards` to build all of the projects in the monorepo
+- Once complete, run `npm run dev --workspaces` to run all the projects in the monorepo
+  &nbsp;
+- After running dev either of these ways, navigate to one of the outputted Local URL in your browser
+- Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
+- You should see a page that looks something like this (its looks may vary depending on which dashboard is run):
   ![Dashboard screenshot](./images/subscription-manager-dashboard-frontend.png)
 
 ### Linting and Formatting
