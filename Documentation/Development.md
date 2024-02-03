@@ -44,7 +44,7 @@
   ![Console output](./images/console-output.png)
 - Navigate to the outputted Local URL in your browser
 - You should see the following page
-  ![Bulksignup screenshot](./images/default-bulk-signup-frontend.png.png)
+  ![Bulksignup screenshot](./images/default-bulk-signup-frontend.png)
 
 ### Running the Subscription Manager Dashboards Frontend Locally
 
