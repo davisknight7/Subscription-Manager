@@ -75,6 +75,13 @@
 
 ### Potential issues
 
+- Building certain directories before others could cause issues
+- This is common when running the command to build all directories
+- If an attempt is made to build a directory which is dependent on another directory having its changes built already, the build will fail
+- For example, trying to build the plan dashboard, which includes the invoice table component, which still has errors because it hasn't been built, will also cause the plan dashboard build to fail
+- To fix this simply clean up the error and/or rebuild the directory containing the error. Then run the original directory you were trying to build
+- Most of the time, simply running `npm run build --workspaces` twice will fix any issues. The first time it runs there maybe build errors, but other builds will complete. The second time, the build errors will go away because of the builds that completed the previous time the command ran
+
 ### Linting and Formatting
 
 - Linting and Formatting is done with ESLint and Prettier using the Accutech specific configuration
