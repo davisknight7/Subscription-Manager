@@ -63,11 +63,11 @@
   ![Packagejson screenshot](./images/package-json.png)
 - Hovering over one of them will give you the option to run the script. Running build will build your changes. Running the dev script will run that dashboard, as only the dashboards have the option to run dev.
 - Thes are the same as running the commands `npm run build` or `npm run dev`
-  &nbsp;
-- Now, if you wanted to do all of this at once you would do as follows.
+
+- Now, if you wanted to do all of this at once you would do as follows:
 - Run `npm run build --workspaces` in `dashboards` to build all of the projects in the monorepo
 - Once complete, run `npm run dev --workspaces` to run all the projects in the monorepo
-  &nbsp;
+
 - After running dev either of these ways, navigate to one of the outputted Local URL in your browser
 - Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
 - You should see a page that looks something like this (its looks may vary depending on which dashboard is run):
