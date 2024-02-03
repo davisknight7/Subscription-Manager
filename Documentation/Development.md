@@ -44,7 +44,7 @@
   ![Console output](./images/console-output.png)
 - Navigate to the outputted Local URL in your browser
 - You should see the following page
-  ![Packagejson screenshot](./images/package-json.png)
+  ![Bulksignup screenshot](./images/default-bulk-signup-frontend.png.png)
 
 ### Running the Subscription Manager Dashboards Frontend Locally
 
@@ -72,6 +72,8 @@
 - Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
 - You should see a page that looks something like this (its looks may vary depending on which dashboard is run):
   ![Dashboard screenshot](./images/subscription-manager-dashboard-frontend.png)
+
+### Potential issues
 
 ### Linting and Formatting
 
@@ -120,10 +122,3 @@
 - The api will be running on port `5002`
 - The bulk sign up frontend will be running on port `5173`
 - The subscription manager frontend will be running on port `5174`
-
-## Running Front End Tests
-- First cd into the front end directory you would like to run tests for
-- This would be 'cd bulk-signup' for the Bulk Signup front end and 'cd subscription-manager-dashboard' for the Subscription Manager Dashboard front end
-- Next, simply run 'npm run test'
-- The output should be something like this:
-![Frontend Test Output](./images/frontend-test-output.png)
