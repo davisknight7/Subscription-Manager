@@ -66,7 +66,7 @@
 
 - Now, if you wanted to do all of this at once you would do as follows:
 - Run `npm run build --workspaces` in `dashboards` to build all of the projects in the monorepo
-- Once complete, run `npm run dev --workspaces` to run all the projects in the monorepo
+- Once complete, run `npm run dev` to run all the projects in the monorepo
 
 - After running dev either of these ways, navigate to one of the outputted Local URL in your browser
 - Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
@@ -128,4 +128,12 @@
   ![Docker Output](./images/docker-output.png)
 - The api will be running on port `5002`
 - The bulk sign up frontend will be running on port `5173`
-- The subscription manager frontend will be running on port `5174`
+- The advise dashboard frontend will be running on port `5174`
+- The merit dashboard frontend will be running on port `5175`
+- The plan dashboard frontend will be running on port `5176`
+
+### Docker Subscription Manager Dashboards
+- Docker will handle the installation of packages for the dashboards, but you still have to manually build the packages for your local changes to take effect
+- Run `npm run build --ws` in the dashboards directory for your package changes to apply to the docker container
+
+
