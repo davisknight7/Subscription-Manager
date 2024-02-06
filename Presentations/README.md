@@ -3,7 +3,7 @@
 ## **[Design Presentation](DesignDay.pdf)**
 ## **[First Iteration Presentation](IterationDay_1.pdf)**
 ## **[Second Iteration Presentation](IterationDay_2.pdf)**
-- Third Iteration Presentation
+## **[Third Iteration Presentation](IterationDay_3.pdf)**
 - Fourth Iteration Presentation
 - Fifth Iteration Presentation
 - Final Presentation
