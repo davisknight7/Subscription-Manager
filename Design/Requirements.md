@@ -30,7 +30,10 @@
 - **FR19** (Bulk Sign Up, **HIGH**): Provide suppport for additional products on advisor signup
 
 ### User Onboarding Project
-- **FR20** (Bulk Sign Up, **MEDIUM**): Users will answer various questions when signing up, to give them a better experience
+- **FR20** (User Onboarding Project, **MEDIUM**): Users will answer various questions when signing up, to give them a better experience
+- **FR21** (User Onboarding Project, **HIGH**): Users will give personal information to be saved in Maxio
+- **FR22** (User Onboarding Project, **MEDIUM**): Users will have the option to be taught how to use the product
+
 
 ## Non-Functional Requirements
 
