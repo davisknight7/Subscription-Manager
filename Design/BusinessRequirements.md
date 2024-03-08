@@ -9,3 +9,5 @@
 ### Subscription Modification
 - Users must have the flexibility to modify their subscription details. Currently, there is no simple way to do this. Whether they need to upgrade, add another service, or make other adjustments, users should find this process easy to do. This solves the goal of creating a way for users to modify their subscriptions on their own, in a few simple steps.
 
+### Onboarding Process
+- Users must have the ability, when beginning to use a product, to enter in their information so that it is saved, and be given the opportunity to learn how to use the software they have purchased.
