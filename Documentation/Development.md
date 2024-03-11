@@ -136,4 +136,9 @@
 - Docker will handle the installation of packages for the dashboards, but you still have to manually build the packages for your local changes to take effect
 - Run `npm run build --ws` in the dashboards directory for your package changes to apply to the docker container
 
-
+### Running Onboarding
+- Run `npm i` in the onboarding directory if you haven't yet
+- In the onboarding directory run `npm run dev` or `vite`
+- It will run on the next available port
+- You should see a page that looks like this
+![Onboarding page](./images/onboarding-local.png)
