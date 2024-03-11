@@ -94,12 +94,10 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 6-1](./images/step6-invoice-table-modal.png)
 
 # Onboarding
-
-## Step 1:
-- You will start on an account creation page. Enter the information asked for, there is validation for what is reuired. It looks like this (with validation errors)xt, notice the steps at the top, and the 'next' button at the bottom:
+- You will start on an account creation page. Enter the information asked for, there is validation for what is reuired. It looks like this (with validation errors), notice the steps at the top, and the 'next' button at the bottom:
   ![Onboarding Step 1-1](./images/step1-onboarding-account-creation.png)
 - The steps at the top track your progress through the initial onboarding process, and the 'next' button takes you to the next step, as long as validation is met in the form.
-- You just click through each step, filling out request information. The next step looks like this:
+- You just click through each step, filling out requested information. The next step looks like this:
   ![Onboarding Step 1-1](./images/step1-onboarding-profile-setup.png)
 - Steps will look similar to these listed above.
 - The last step will have a submit button, currently there is no functionality to this:
