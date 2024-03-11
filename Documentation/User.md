@@ -1,6 +1,6 @@
 # User
 
-This file will guide use on both Bulk Signup and Subscription Manager Dashboard
+This file will guide use on both Bulk Signup, Subscription Manager Dashboard, and Onboarding
 
 # Bulk Signup
 
@@ -86,10 +86,23 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - Clicking the edit button will bring up a modal. Similar to the customer information modal, you can input new billing information and submit it, or close the modal using the corresponding buttons. It looks like this:
   ![Dash Step 5-2](./images/step5-billing-tab-modal.png)
 
-
 ## Step 6:
 - Clicking on Invoices will take you to the invoice table inside the invoice tab. It looks like this, notice the links and page numbers:
   ![Dash Step 6-1](./images/step6-invoice-table.png)
 - Each page of the table includes up to 10 invoices. Buttons are disabled accordingly. In this instance, there are less than 10 invoices so all the buttons are disabled. If there were, say 15 invoices, there would be 2 page buttons plus 'prev' and 'next', and when on the initial page 1, the 'prev' button and '1' would be disabled.
 - Clicking the invoice number link brings up a modal. This modal can include just a public url to the invoice, where it can be paid. It will only show a url if the invoice is a singular invoice, without any child segments. If the invoice is a parent invoice, i.e. they have child segments, a table will be inside the modal as well, showing those children segments. The modal can be closed using the 'close' button. It looks like this (this is a parent invoice with children segments):
   ![Dash Step 6-1](./images/step6-invoice-table-modal.png)
+
+# Onboarding
+
+## Step 1:
+- You will start on an account creation page. Enter the information asked for, there is validation for what is reuired. It looks like this (with validation errors)xt, notice the steps at the top, and the 'next' button at the bottom:
+  ![Onboarding Step 1-1](./images/step1-onboarding-account-creation.png)
+- The steps at the top track your progress through the initial onboarding process, and the 'next' button takes you to the next step, as long as validation is met in the form.
+- You just click through each step, filling out request information. The next step looks like this:
+  ![Onboarding Step 1-1](./images/step1-onboarding-profile-setup.png)
+- Steps will look similar to these listed above.
+- The last step will have a submit button, currently there is no functionality to this:
+  ![Onboarding Step 1-1](./images/step1-onboarding-last-step.png)
+
+
