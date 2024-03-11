@@ -63,16 +63,16 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - It should look something like this:
   ![Dash Step 1-1](./images/step1-main-dashboard.png)
 - Depending on what subscriptions the customer is signed in under, different information may show or the layout/colors may differ slightly
-- All different functionality options are avaialable on this single dashboard
+- All different functionality options are available on this single dashboard
 
 ## Step 2:
 - You can view subscription information in the subscription card at the top of the dashboard, here:
   ![Dash Step 2-1](./images/step2-subscription-card.png)
 
 ## Step 3:
-- In the customer information tab, you can view your person information on your account. It looks like this, notice the edit button in the top right: 
+- In the customer information tab, you can view your personal information on your account. It looks like this, notice the edit button in the top right: 
   ![Dash Step 3-1](./images/step3-customer-info.png)
-- Clicking the edit button in the top right will bring up a modal. Here you can edit your personal information. Clicking the submit button will send the request to Maxoi to update the information. Simply fill out the fields, and click submit, or click close to close the modal. It looks like this:
+- Clicking the edit button in the top right will bring up a modal. Here you can edit your personal information. Clicking the submit button will send the request to Maxio to update the information. Simply fill out the fields, and click submit, or click close to close the modal. It looks like this:
   ![Dash Step 3-2](./images/step3-customer-info-modal.png)
 
 ## Step 4:
@@ -80,7 +80,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 4-1](./images/step4-invoice-chart.png)
 
 ## Step 5:
-- Inside the tab switcher lives 2 sections, the billing section and invoice section.
+- Inside the tab switcher lives 2 sections, the billing section and invoices section.
 - It starts on the billing tab, or you can return to it by clicking the billing tab again. You will see your personal billing information, including a masked card number. It will look like this, notice the edit button in the top right:
   ![Dash Step 5-1](./images/step5-billing-tab.png)
 - Clicking the edit button will bring up a modal. Similar to the customer information modal, you can input new billing information and submit it, or close the modal using the corresponding buttons. It looks like this:
@@ -90,6 +90,6 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 ## Step 6:
 - Clicking on Invoices will take you to the invoice table inside the invoice tab. It looks like this, notice the links and page numbers:
   ![Dash Step 6-1](./images/step6-invoice-table.png)
-- Each page of the table includes up to 10 invoices. Buttons are disabled accordingly. In this instance, there are less than 10 invoices so all the buttons are disabled. If there were more than 10, there would be 2 page buttons plus 'prev' and 'next', and when on the initial page 1, the 'prev' button and '1' would be disabled.
+- Each page of the table includes up to 10 invoices. Buttons are disabled accordingly. In this instance, there are less than 10 invoices so all the buttons are disabled. If there were, say 15 invoices, there would be 2 page buttons plus 'prev' and 'next', and when on the initial page 1, the 'prev' button and '1' would be disabled.
 - Clicking the invoice number link brings up a modal. This modal can include just a public url to the invoice, where it can be paid. It will only show a url if the invoice is a singular invoice, without any child segments. If the invoice is a parent invoice, i.e. they have child segments, a table will be inside the modal as well, showing those children segments. The modal can be closed using the 'close' button. It looks like this (this is a parent invoice with children segments):
   ![Dash Step 6-1](./images/step6-invoice-table-modal.png)
