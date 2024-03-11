@@ -44,7 +44,7 @@
   ![Console output](./images/console-output.png)
 - Navigate to the outputted Local URL in your browser
 - You should see the following page
-  ![Bulksignup screenshot](./images/step1-main-dashboard.png)
+  ![Bulksignup screenshot](./images/default-bulk-signup-frontend.png)
 
 ### Running the Subscription Manager Dashboards Frontend Locally
 
@@ -71,7 +71,7 @@
 - After running dev either of these ways, navigate to one of the outputted Local URL in your browser
 - Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
 - You should see a page that looks something like this (its looks may vary depending on which dashboard is run):
-  ![Dashboard screenshot](./images/subscription-manager-dashboard-frontend.png)
+  ![Dashboard screenshot](./images/step1-main-dashboard.png)
 
 ### Potential issues
 
