@@ -63,19 +63,20 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - It should look something like this:
   ![Dash Step 1-1](./images/step1-main-dashboard.png)
 - Depending on what subscriptions the customer is signed in under, different information may show or the layout/colors may differ slightly
-- Notice the different panels in the side bar:
-- ![Dash Step 1-2](./images/step1-sidebar.png)
+- All different functionality options are avaialable on this single dashboard
 
 ## Step 2:
-
-- Clicking on Billing will take you to the billing information page of the Subscription Manager:
-- ![Dash Step 2-1](./images/step2-billing-tab.png)
-- The page looks like this:
-  ![Dash Step 2-2](./images/step2-billing-page.png)
-- Nothing currently can be done here, besides typing in information. But it can't be submitted.
+- You can view subscription information in the subscription card at the top of the dashboard, here:
+  ![Dash Step 2-1](./images/step2-subscription-card.png)
 
 ## Step 3:
+- In the customer information tab, you can view your person information on your account. It looks like this, notice the edit button in the top right: 
+  ![Dash Step 3-1](./images/step3-customer-info.png)
+- Clicking the edit button in the top right will bring up a modal. Here you can edit your personal information. Clicking the submit button will send the request to Maxoi to update the information. Simply fill out the fields, and click submit, or click close to close the modal. It looks like this:
+  ![Dash Step 3-2](./images/step3-customer-info-modal.png)
 
+
+## Step 5:
 - Clicking on Invoices will take you to the billing information page of the Subscription Manager:
 - ![Dash Step 3-1](./images/step3-invoice-tab.png)
 - The page looks like this:
