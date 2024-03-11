@@ -103,6 +103,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - You just click through each step, filling out requested information. The next step looks like this:
   ![Onboarding Step 1-1](./images/step1-onboarding-profile-setup.png)
 - Steps will look similar to these listed above.
+- The 'previous' button takes you to the previous step.
 
 ## Step 3:
 - The last step will have a submit button, currently there is no functionality to this:
