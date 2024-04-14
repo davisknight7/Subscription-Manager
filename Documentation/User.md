@@ -11,11 +11,11 @@ This file will guide use on both Bulk Signup, Subscription Manager Dashboard, an
 
 ## Step 2:
 
-Once at advisor page, you can create advisors like so:
+You can create advisors like so:
 
-- Click the add advisor button circled in red
+- Click the add advisor button highlighted in red
   ![Step 2](./images/Step2-2-edit.png)
-- Once you have clicked the add advisor button, a new page will open
+- Once you have clicked the add advisor button, a modal will appear
   ![Step2-2](./images/Step2.png)
 
 ## Step 3:
@@ -57,7 +57,7 @@ You will see this:
 Once billing information is filled out, navigate towards the Submit button to submit this advisor information and billing information. 
 ![Step 6](./images/step6.png)
 Note that you can click on the Previous button to go back to the create subscriptions page
-Once you have pressed submit, the information will be sent to Maxio to create subscriptions..
+Once you have pressed submit, the information will be sent to Maxio to create subscriptions!
 
 # Subscription Manager Dashboard
 
