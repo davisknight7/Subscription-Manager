@@ -40,7 +40,8 @@
 - Clone the code from: https://bitbucket.org/accutechcapstone/bsu.subscriptionmanager/src/master/
 - master has the latest release code, dev has the latest development code. You probably will want to check out dev.
 - In a terminal, navigate to the project directory. At the top level, run 'cd bulk-signup'
-- Run `npm run dev` in the bulk-signup directory
+- Run `npm install`
+- Once installation is finished, run `npm run dev` in the bulk-signup directory
   ![Console output](./images/console-output.png)
 - Navigate to the outputted Local URL in your browser
 - You should see the following page
@@ -49,38 +50,43 @@
 ### Running the Subscription Manager Dashboards Frontend Locally
 
 - The Subscription Manager Dashboard is broken up into multiple directories. It is a monorepo. The top level is the directory "dashboards" which inside is "packages." In there are the various monorepo directories. It contains the following directories:
-  - advise-dashboard
-  - plan-dashboard
-  - merit-dashboard
-  - shared-api-utils
-  - shared-stores
-  - subscription-dashboard-component-library
+  - Inside apps:
+    - advise-dashboard
+    - plan-dashboard
+    - merit-dashboard
+  - Inside libs:
+    - shared-api-utils
+    - shared-stores
+    - shared-components
+    - shared-types
 - Assuming you have already cloned the code and checked out dev, navigate to the project directory in a terminal. At the top level, run `cd dashboards`
-- Once there you will need to make sure you have run `npm i --workspaces`
-- After installation is complete, you have a couple of options. You can either build/run each directory individually, depending on where you make changes, or run all at once.
-- When making changes it is preferable to just build the directory you made changes in. To do this, you would navigate to the directory's `package.json`.
+- Once there you will need to make sure you have run `npm install` and `npm i --workspaces`
+- After installation is complete, you will need to build each package individually.
+- When making changes you will also need to rebuild the directory you made changes in. To build them, you would navigate to the directory's `package.json`.
 - In the `package.json` you will see "scripts". Depending on which directory you are in, there maybe just a build script, or both a dev and build script. Something like this:
   ![Packagejson screenshot](./images/package-json.png)
 - Hovering over one of them will give you the option to run the script. Running build will build your changes. Running the dev script will run that dashboard, as only the dashboards have the option to run dev.
-- Thes are the same as running the commands `npm run build` or `npm run dev`
-
-- Now, if you wanted to do all of this at once you would do as follows:
-- Run `npm run build --workspaces` in `dashboards` to build all of the projects in the monorepo
-- Once complete, run `npm run dev` to run all the projects in the monorepo
-
-- After running dev either of these ways, navigate to one of the outputted Local URL in your browser
-- Make sure the API/backend ([link](### Running the Backend Locally)) so that information will populate the dashboards
+- These are the same as running the commands `npm run build` or `npm run dev`
+- After freshly cloning the repo and running `npm install` and `npm i --workspaces`, you will want to build the packages in this order:
+  - shared-types
+  - shared-api-utils
+  - shared-stores
+  - shared-components
+  - Now, any dashboard can be built
+- Once these packages all build, can you run dev in any of the dashboards. After running dev, navigate to one of the outputted Local URL in your browser
+- Make sure the API/backend is running so that information will populate the dashboards
 - You should see a page that looks something like this (its looks may vary depending on which dashboard is run):
   ![Dashboard screenshot](./images/step1-main-dashboard.png)
 
 ### Potential issues
 
 - Building certain directories before others could cause issues
-- This is common when running the command to build all directories
 - If an attempt is made to build a directory which is dependent on another directory having its changes built already, the build will fail
-- For example, trying to build the plan dashboard, which includes the invoice table component, which still has errors because it hasn't been built, will also cause the plan dashboard build to fail
+- For example, trying to build the plan dashboard, which is reliant on invoice table component in shared-components, will result in failure and/or issues if the shared-component package has not been built
+- The dashboard may run but be out of date because of the out of date build in another package, or it may simply have a build failure
 - To fix this simply clean up the error and/or rebuild the directory containing the error. Then run the original directory you were trying to build
-- Most of the time, simply running `npm run build --workspaces` twice will fix any issues. The first time it runs there maybe build errors, but other builds will complete. The second time, the build errors will go away because of the builds that completed the previous time the command ran
+- If all else fails, try building every package in the order listed above
+
 
 ### Linting and Formatting
 
@@ -108,15 +114,13 @@
 
 ### Running the Backend Locally
 
-- In a terminal, navigate to the top level of the project directory. Once there, run 'cd api'
-- Run `dotnet run` in the api directory
+- In a terminal, navigate to the top level of the project directory. Once there, run `cd api` and then `cd SubscriptionManagerAPI`
+- Run `dotnet run` in the SubscriptionManagerAPI directory
 - The output should look something like this:
   ![Console output](./images/run-backend-successfully-output.png)
 
-- Once the backend is running, you will be able to submit a bulk signup subscription request to Maxio
-- A successfull susbcription creation will look something like this in the terminal:
-  ![Subscription Creation Console Output](./images/subscription-creation-output.png)
-- This alert will also display on the front end:
+- Once the backend is running, you will be able to submit a bulk signup subscription request to Maxio, be able to view/edit info on the dasboard, and submit an onboarding request
+- This alert will also display on the front end when succesfully creating a new subscription:
 - ![Subscription Creation Alert](./images/advisors-added-alert.png)
 
 ## Replicating via Docker
