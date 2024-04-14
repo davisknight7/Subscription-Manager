@@ -80,11 +80,11 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 3-2](./images/step3-customer-info-modal.png)
 
 ## Step 4:
-- This chart is a chart that represents invoice subtotal amounts throughout the history of the account. It simply provides a more easily understandable view of this information for the customer. It looks like this:
+- This chart is a chart that represents invoice subtotal amounts throughout the history of the account. It simply provides a more easily understandable view of this information for the customer. It can show all invoices consildated in blue, or filter our certain products. It looks like this:
   ![Dash Step 4-1](./images/step4-invoice-chart.png)
 
 ## Step 5:
-- Inside the tab switcher lives 2 sections, the billing section and invoices section.
+- Inside the tab switcher lives 3 sections, the billing section, invoices section, and subscription group overview section.
 - It starts on the billing tab, or you can return to it by clicking the billing tab again. You will see your personal billing information, including a masked card number. It will look like this, notice the edit button in the top right:
   ![Dash Step 5-1](./images/step5-billing-tab.png)
 - Clicking the edit button will bring up a modal. Similar to the customer information modal, you can input new billing information and submit it, or close the modal using the corresponding buttons. It looks like this:
@@ -96,6 +96,11 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - Each page of the table includes up to 10 invoices. Buttons are disabled accordingly. In this instance, there are less than 10 invoices so all the buttons are disabled. If there were, say 15 invoices, there would be 2 page buttons plus 'prev' and 'next', and when on the initial page 1, the 'prev' button and '1' would be disabled.
 - Clicking the invoice number link brings up a modal. This modal can include just a public url to the invoice, where it can be paid. It will only show a url if the invoice is a singular invoice, without any child segments. If the invoice is a parent invoice, i.e. they have child segments, a table will be inside the modal as well, showing those children segments. The modal can be closed using the 'close' button. It looks like this (this is a parent invoice with children segments):
   ![Dash Step 6-1](./images/step6-invoice-table-modal.png)
+
+## Step 7:
+- Clicking on Subscription Group will take you to an overivew of the Subscription which the user is in, as long as they are in one. Nothing can be done here besides simpply viewing this information. It looks like this:
+  ![Dash Step 6-2](./images/step7-group-overview.png)
+
 
 # Onboarding
 ## Step 1:
@@ -110,7 +115,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
 - The 'previous' button takes you to the previous step.
 
 ## Step 3:
-- The last step will have a submit button, currently there is no functionality to this:
+- The last step will have a submit button. This button submits a request to Maxio to create a new customer with information added on the 'Account Creation' page, and then custom fields are added to that customer with the remaining entered information. It looks like this:
   ![Onboarding Step 1-1](./images/step1-onboarding-last-step.png)
 
 
