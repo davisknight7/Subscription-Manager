@@ -80,7 +80,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 3-2](./images/step3-customer-info-modal.png)
 
 ## Step 4:
-- This chart is a chart that represents invoice subtotal amounts throughout the history of the account. It simply provides a more easily understandable view of this information for the customer. It can show all invoices consildated in blue, or filter our certain products. It looks like this:
+- This chart is a chart that represents invoice subtotal amounts throughout the history of the account. It simply provides a more easily understandable view of this information for the customer. It can show all invoices consildated in blue, or filter out certain products. It looks like this:
   ![Dash Step 4-1](./images/step4-invoice-chart.png)
 
 ## Step 5:
@@ -98,7 +98,7 @@ Once you have pressed submit, the information will be sent to Maxio to create su
   ![Dash Step 6-1](./images/step6-invoice-table-modal.png)
 
 ## Step 7:
-- Clicking on Subscription Group will take you to an overivew of the Subscription which the user is in, as long as they are in one. Nothing can be done here besides simpply viewing this information. It looks like this:
+- Clicking on Subscription Group will take you to an overivew of the Subscription which the user is in, as long as they are in one. Nothing can be done here besides simply viewing this information. It looks like this:
   ![Dash Step 6-2](./images/step7-group-overview.png)
 
 
