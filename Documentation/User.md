@@ -1,6 +1,6 @@
 # User
 
-This file will guide use on both Bulk Signup, Subscription Manager Dashboard, and Onboarding
+This file will guide use on Bulk Signup, Subscription Manager Dashboard, and Onboarding
 
 # Bulk Signup
 
