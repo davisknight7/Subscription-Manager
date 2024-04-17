@@ -1,18 +1,18 @@
 ## 5 People Who Listened
 
-Jack Carthew
+Ashley Vanaman
 ![Person 1](./pic1.jpg)
 
-Justyn Fox
+Jack Carthew
 ![Person 12](./pic2.jpg)
 
-Micah Harker
+Justyn Fox
 ![Person 3](./pic3.jpg)
 
 Tia Self
 ![Person 4](./pic4.jpg)
 
-Ashley Vanaman
+Micah Harker
 ![Person 5](./pic5.jpg)
 
 ## Team Experience
