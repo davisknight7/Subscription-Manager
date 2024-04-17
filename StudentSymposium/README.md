@@ -22,7 +22,7 @@ Conner Um: I had a fun and interactive experience at the Student Symposium. We h
 
 Evyn King: The student symposium was super eye opening due to the fact that there were so many other projects outside of computer science projects. During our group’s presentations to judges and other students they seemed to be interested in our projects layout and functionality. On the other hand, walking around to see other projects was also interesting to me because we saw them all year but to see the final product of other groups and their progression through the year was super cool to me.
 
-Davis Knight: I had a pretty good time at the student symposium. It was more or less what I expected, but I was pleasantly surprised with how many people came up to our poster. More than 10 listened, so I thought that was cool. I think that at a certain point things started to die down and it get a bit boring. It was also nice to get some more experience explaining our project to less technical people.
+Davis Knight: I had a pretty good time at the student symposium. It was more or less what I expected, but I was pleasantly surprised with how many people came up to our poster. More than 10 listened, so I thought that was cool. I think that at a certain point things started to die down and it got a bit boring. It was also nice to get some more experience explaining our project to less technical people.
 
 Connor Yeager:
 
