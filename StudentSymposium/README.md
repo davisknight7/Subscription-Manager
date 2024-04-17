@@ -24,7 +24,7 @@ Evyn King: The student symposium was super eye opening due to the fact that ther
 
 Davis Knight: I had a pretty good time at the student symposium. It was more or less what I expected, but I was pleasantly surprised with how many people came up to our poster. More than 10 listened, so I thought that was cool. I think that at a certain point things started to die down and it got a bit boring. It was also nice to get some more experience explaining our project to less technical people.
 
-Connor Yeager:
+Connor Yeager: Student symposium was a great way to see what all the students of Ball State can do. Many different majors and projects. I saw some projects that were way out of my scope and it was really great to see a high level of intellect in respective majors. Judges were noticeable but they mostly pick and choose what they judge. We recieved some good judges but some of them are not very tech savvy so I don't if they understood the full scope of our own project. Overall it was a great experience.
 
 ## Team Picture
 ![Team Pic](./teampic.jpg)
