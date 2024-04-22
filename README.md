@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-This project contains two parts. The first part is implementing a way for bulk signing up users for moneytree. Currently, only one advisor can be signed up at a time. Ideally, it should be easy to sign up as many advisors as desired at a time, which will help Moneytree as it scales. The second part is creating a subscription management interface that allows the user to easily manage their moneytree subscription.
+This project contains three parts. The first part is implementing a way for bulk signing up users for moneytree. Currently, only one advisor can be signed up at a time. Ideally, it should be easy to sign up as many advisors as desired at a time, which will help Moneytree as it scales. The second part is creating a subscription management interface that allows the user to easily manage their moneytree subscription. The third part is an onboarding system for new customers, where an account is created for them, an extra data is also collected and added as metafields.
 
 ## **Team Members**
 
